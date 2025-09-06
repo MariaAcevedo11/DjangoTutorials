@@ -1,0 +1,15 @@
+{% extends 'pages/base.html' %}
+
+{% block title %} {{title}} {% endblock %}
+{% block header_title %} {{subtitle}} {% endblock %}
+
+
+{% block content %}
+<div class="container d-flex justify-content-center">
+  <div class="row">
+    <div class="col text-center">
+      <p class="lead">{{ description }}</p>
+    </div>
+  </div>
+</div>
+{% endblock %}
